@@ -1,8 +1,8 @@
 $engine: 3
 $onesync: legacy
-name: DokusCore
+name: DokusCore-Recipe
 version: 0.6.4
-author: Paulo Moreira - NightBR
+author: NightBR
 description: A RedM Framework for quality with love :)! 
 
 tasks:
@@ -51,6 +51,11 @@ tasks:
   - action: query_database
     file: ./tmp/DokusCore/db.sql
 
+# Define a folder for DokusZones
+  - action: ensure_dir
+    ref: main
+    dest: ./resources/[ DokusZones ]
+
   # Download basic resources and DokusCore dependencies
   # Download default CFX resources
   - action: download_github
@@ -74,7 +79,6 @@ tasks:
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Banking
     ref: main
-
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Banking
   
   - action: download_github
