@@ -89,7 +89,7 @@ tasks:
     src: https://github.com/DokusCore/DokusCore--Characters
     ref: main
     subpath: resources
-    dest: .resources/[ Core ]/[ DokusCore ]/DokusCore--Characters 
+    dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Characters 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Clothing 
