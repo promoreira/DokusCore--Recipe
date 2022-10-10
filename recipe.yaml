@@ -8,7 +8,7 @@ description: A RedM Framework for quality with love :)!
 tasks:
   # Download and prepare server configs & database
   - action: download_github
-    src: https://github.com/DokusCore/Server-Prebuild/DokusCore-recipe
+    src: https://github.com/promoreira/DokusCore--Recipe
     ref: main
     dest: ./tmp/DokusCore
 
