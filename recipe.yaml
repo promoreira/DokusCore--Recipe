@@ -60,155 +60,154 @@ tasks:
     dest: ./resources/[ Core ]/[ FiveM ]
   
   # DoskusCore Dependencies
-  - action: download_file
-    path: .tmp/files/main.zip
-    url: https://github.com/DokusCore/DokusCore--Dependencies/archive/refs/heads/main.zip
-  - action: unzip
+  - action: download_github
+    src: https://github.com/DokusCore/DokusCore--Dependencies
+    ref: main
+    subpath: resources
     dest: ./resources/[ Core ]/[ Dependencies ]
-    src: ./tmp/files/main.zip
   
     # DoskusCore Resources / Plugins
   - action: download_github
     src: https://github.com/DokusCore/DokusCore
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Banking
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Banking
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Boats
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Boats
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Characters
-    ref: master
+    ref: main
     subpath: resources
     dest: .resources/[ Core ]/[ DokusCore ]/DokusCore--Characters 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Clothing 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Clothing 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--CoreMenu 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--CoreMenu 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--DataSync 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--DataSync 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--FastTravel 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--FastTravel
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Guidance 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Guidance 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Instruments 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Instruments 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Inventory 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Inventory 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Metabolism 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Metabolism 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--NPCMenu 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--NPCMenu 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--ScratchCards 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--ScratchCards 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--ScriptBundle 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--ScriptBundle 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Skins 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Skins 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Spawner 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Spawner 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Stables 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Stables 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Stores 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Stores 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Telegrams 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Telegrams 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Trains 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Trains 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--UsableItems 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--UsableItems 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--WorldEdits 
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--WorldEdits 
   
   - action: download_github
     src: https://github.com/DokusCore/DokusCore--Zones
-    ref: master
+    ref: main
     subpath: resources
     dest: ./resources/[ Core ]/[ DokusCore ]/DokusCore--Zones 
   
