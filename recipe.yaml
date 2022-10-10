@@ -10,7 +10,7 @@ tasks:
   - action: download_github
     src: https://github.com/DokusCore/Server-Prebuild/DokusCore-recipe
     ref: main
-    dest: ./tmp/DokusCore/Server/_Data
+    dest: ./tmp/DokusCore
 
   # DoskusCore Server configs
   - action: move_path
