@@ -12,11 +12,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-
--- Dumping database structure for dokuscore
-CREATE DATABASE IF NOT EXISTS `dokuscore` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `dokuscore`;
-
 -- Dumping structure for table dokuscore.banks
 CREATE TABLE IF NOT EXISTS `banks` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
@@ -185,9 +180,9 @@ INSERT INTO `items` (`ID`, `Item`, `Name`, `Type`, `Description`, `CTI`, `CA`, `
 	(25, 'orange', 'Orange', 'Consumable', 'In the old days it was a fruit. In the future, they call it Donald Trump', NULL, 0, 150, 'true', 'false', 'false', 5, 10, 5, 5, 0, 0, 0, 0, NULL, NULL, 'EAT_MULTI_BITE_FOOD_SPHERE_D8-2_SANDWICH_QUICK_LEFT_HAND', NULL, NULL, NULL),
 	(26, 'trumpet', 'Trumpet', 'Instrument', 'Its from brass, its annoying, don\'t buy it, don\'t play it!', NULL, 0, 1, 'false', 'false', 'false', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'WORLD_HUMAN_TRUMPET', NULL, NULL, NULL),
 	(27, 'scratchcard', 'Scratch Card', 'Consumable', 'Everyone could be a winner!', NULL, 0, 10, 'false', 'false', 'true', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{"Type":"Client", "Event":"DokusCore:ScratchCards:Show:Random", "Delete":"true"}', NULL),
-	(30, 'scratchprize', 'Scratch Winning Card', 'Consumable', 'A winning scratch card', NULL, 0, 10, 'false', 'false', 'true', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{"Type":"Client", "Event":"DokusCore:ScratchCards:Get:Rewards"}', NULL),
-	(31, 'rowboat', 'Row Boat', 'Boat', 'At least it stays afloat', NULL, 0, 0, 'false', 'false', 'false', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{ "CanSell":"true", "CanBuy":"true", "SellPrice":10.0, "BuyPrice":15.0 }'),
-	(32, 'rowboatSwamp', 'Swamp Row Boat', 'Boat', 'You\'re at least safe from Aligators haha', NULL, 0, 0, 'false', 'false', 'false', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{ "CanSell":"true", "CanBuy":"true", "SellPrice":15.0, "BuyPrice":30.0 }');
+	(28, 'scratchprize', 'Scratch Winning Card', 'Consumable', 'A winning scratch card', NULL, 0, 10, 'false', 'false', 'true', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{"Type":"Client", "Event":"DokusCore:ScratchCards:Get:Rewards"}', NULL),
+	(29, 'rowboat', 'Row Boat', 'Boat', 'At least it stays afloat', NULL, 0, 0, 'false', 'false', 'false', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{ "CanSell":"true", "CanBuy":"true", "SellPrice":10.0, "BuyPrice":15.0 }'),
+	(30, 'rowboatSwamp', 'Swamp Row Boat', 'Boat', 'You\'re at least safe from Aligators haha', NULL, 0, 0, 'false', 'false', 'false', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{ "CanSell":"true", "CanBuy":"true", "SellPrice":15.0, "BuyPrice":30.0 }');
 /*!40000 ALTER TABLE `items` ENABLE KEYS */;
 
 -- Dumping structure for table dokuscore.jobs
