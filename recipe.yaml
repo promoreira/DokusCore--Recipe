@@ -53,8 +53,7 @@ tasks:
 
 # Define a folder for DokusZones
   - action: ensure_dir
-    ref: main
-    dest: ./resources/[ DokusZones ]
+    path: ./resources/[ DokusZones ]
 
   # Download basic resources and DokusCore dependencies
   # Download default CFX resources
