@@ -61,7 +61,7 @@ tasks:
   
   # DoskusCore Dependencies
   - action: download_github
-    src: https://github.com/DokusCore/DokusCore--Dependencies.git
+    src: https://github.com/DokusCore/DokusCore--Dependencies/archive/refs/heads/main.zip
     ref: master
     subpath: resources
     dest: ./resources/[ Core ]/[ Dependencies ]
