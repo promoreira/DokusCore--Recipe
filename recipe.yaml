@@ -22,7 +22,7 @@ tasks:
     dest: ./admins.cfg
 
   - action: move_path
-    src: ./tmp/DokusCore/credentials.cfg
+    src: ./tmp/DokusCore/credentionals.cfg
     dest: ./credentials.cfg
 
   - action: move_path
