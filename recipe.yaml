@@ -43,8 +43,8 @@ tasks:
 
   # DoskusCore Server Start Bat
   - action: move_path
-  - src: ./tmp/DokusCore/DokusCore.bat
-    file: ./tmp/DokusCore.bat
+    src: ./tmp/DokusCore/DokusCore.bat
+    dest: ./tmp/DokusCore.bat
 
   # DoskusCore Database
   - action: connect_database
