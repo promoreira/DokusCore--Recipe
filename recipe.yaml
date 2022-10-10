@@ -15,31 +15,31 @@ tasks:
   # DoskusCore Server configs
   - action: move_path
     src: ./tmp/DokusCore/server.cfg
-    dest: ./Server/_Data/server.cfg
+    dest: ./server.cfg
 
   - action: move_path
     src: ./tmp/DokusCore/admins.cfg
-    dest: ./Server/_Data/admins.cfg
+    dest: ./admins.cfg
 
   - action: move_path
     src: ./tmp/DokusCore/credentials.cfg
-    dest: ./Server/_Data/credentials.cfg
+    dest: ./credentials.cfg
 
   - action: move_path
     src: ./tmp/DokusCore/license.cfg
-    dest: ./Server/_Data/license.cfg
+    dest: ./license.cfg
 
   - action: move_path
     src: ./tmp/DokusCore/mysql.cfg
-    dest: ./Server/_Data/mysql.cfg
+    dest: ./mysql.cfg
 
   - action: move_path
     src: ./tmp/DokusCore/resources.cfg
-    dest: ./Server/_Data/resources.cfg
+    dest: ./resources.cfg
 
   - action: move_path
     src: ./tmp/DokusCore/Logo.png
-    dest: ./Server/_Data/Logo.png
+    dest: ./Logo.png
 
   # DoskusCore Server Start Bat
   - action: move_path
