@@ -38,8 +38,8 @@ tasks:
     dest: ./resources.cfg
 
   - action: move_path
-  - src: ./tmp/DokusCore/Logo.png
-    file: ./Logo.png
+    src: ./tmp/DokusCore/Logo.png
+    dest: ./Logo.png
 
   # DoskusCore Server Start Bat
   - action: move_path
