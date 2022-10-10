@@ -60,11 +60,12 @@ tasks:
     dest: ./resources/[ Core ]/[ FiveM ]
   
   # DoskusCore Dependencies
-  - action: download_github
-    src: https://github.com/DokusCore/DokusCore--Dependencies/archive/refs/heads/main.zip
-    ref: master
-    subpath: resources
+  - action: download_file
+    path: .tmp/files/main.zip
+    url: https://github.com/DokusCore/DokusCore--Dependencies/archive/refs/heads/main.zip
+  - action: unzip
     dest: ./resources/[ Core ]/[ Dependencies ]
+    src: ./tmp/files/main.zip
   
     # DoskusCore Resources / Plugins
   - action: download_github
