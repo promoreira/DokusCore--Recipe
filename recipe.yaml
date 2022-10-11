@@ -1,5 +1,5 @@
 $engine: 3
-$onesync: legacy
+$onesync: off
 name: DokusCore-Recipe
 version: 0.6.4
 author: NightBR
