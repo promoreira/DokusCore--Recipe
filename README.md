@@ -1,2 +1,2 @@
-# DokusCore--Recipe
-DokusCore TxAdmin Recipe
+# txAdminRecipe_DokusCore_test
+txAdmin recipe for project DokusCore test
